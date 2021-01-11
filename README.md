@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Ajax Pages - Created With React.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a rewrite of the [Ajax Pages](http://ajax-pages.sourceforge.net/) Blog demonstration project using React.js.
 
-## Available Scripts
+Ajax pages was a forerunner to modern front-end templating solutions, used to implement Single Page Applications (SPA), in an 
+era when frontend development was far less mature.
+
+It was felt that reworking the Ajax Pages Blog project would provide a good way to demonstrate the basics of the React 
+framework library within a small size project.
+
+It should be noted that as a first effort this project has remained as faithful as possible to the initial code base.  
+For example, the HTML presented as part of the project is showing its age.  Future effort would be directed to reworking the layout etc in 
+Bootstap.  Even the use of modern CSS to present rounded corners etc would be appreciated.
+
+That's an exercise for another time however ... :).
+
+# Prerequisites 
+
+It is assumed that a modern version of node is installed on your machine.  The software was developer using version 14.1.0.
+# Getting Started
+
+## Installation/Running
 
 In the project directory, you can run:
+
+### `npm install`
+
+to download and install all third-party dependencies.
+
+The command
 
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Using the application
 
-### `npm test`
+It should be noted that the username/password for the admin section of the app is admin/admin.  
+DISCLAIMER: Obviously this application is simply a demonstration and this does not represent a serious authentication 
+mechanism etc to be used in production software.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# TODO
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Rework CSS to modernise the application e.g. rework the layout to present a modern, reactive UI.
+- Implement a "backend" i.e. a set of REST services to allow persistence of the blog.
+- Rework using more advanced React concepts such as stateless components, redux, hooks etc.
